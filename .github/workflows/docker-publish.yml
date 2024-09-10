@@ -26,8 +26,8 @@ jobs:
   integration:
     uses: ./.github/workflows/python-ci-workflow.yml
     permissions:
-      contents:read
-      checks:write
+      contents: read
+      checks: write
   build:
     needs: [integration]
 
